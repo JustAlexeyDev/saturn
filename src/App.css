@@ -25,8 +25,21 @@ h6 {
   font-weight: 700;
   text-align: center;
 }
-.header {
+header {
   background-color: #000;
+}
+.home {
+  display: flex;
+  justify-content: center;
+}
+.saturn_con {
+  display: flex;
+  justify-content: center;
+}
+.saturn {
+  display: flex;
+  justify-content: center;
+  border-radius: 9999px;
 }
 nav {
   display: flex;
@@ -45,6 +58,11 @@ button:hover {
   color: #fff;
   border-radius: 6px;
 }
+.about_info {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 16px;
+}
 @media screen and (max-width: 719px) {
   .header_btn {
     font-size: 15px;
@@ -62,6 +80,15 @@ button:hover {
     text-align: center;
     font-size: 20px;
   } 
+  .about_main {
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 @media screen and (min-width: 720px) {
   .header_btn {
@@ -87,4 +114,13 @@ button:hover {
     text-align: center;
     font-size: 25px;
   } 
+  .about_main {
+    padding: 16px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
